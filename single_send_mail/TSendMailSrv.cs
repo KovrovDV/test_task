@@ -25,7 +25,7 @@ namespace single_send_mail
                 var factory = new ConnectionFactory() { 
                     HostName = _pParams.sHostName,  
                     Port = _pParams.iPort, 
-                    VirtualHost = _pParams.sVirtualHast, 
+                    VirtualHost = _pParams.sVirtualHast,  
                     UserName =_pParams.sUserName, 
                     Password = _pParams.sPassword
                 };
