@@ -1,0 +1,12 @@
+[Unit]
+Description= Single Senf Mail
+After=network.target
+
+[Service]
+User=work_user
+ExecStart=/usr/bin/dotnet /opt/single_send_mail/single_send_mail.dll
+WorkingDirectory=/opt/single_send_mail
+PIDFile=/var/run/single_send_mail.pid
+Type=Forking
+[Install]
+WantedBy=multi-user.target 
