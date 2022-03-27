@@ -22,7 +22,7 @@ namespace single_send_mail
         public bool Init(TQueueParams _pParams){            
             try{
                 // Считываем параметры
-                var factory = new ConnectionFactory() { 
+                var factory = new ConnectionFactory() {  
                     HostName = _pParams.sHostName,  
                     Port = _pParams.iPort, 
                     VirtualHost = _pParams.sVirtualHast,  
