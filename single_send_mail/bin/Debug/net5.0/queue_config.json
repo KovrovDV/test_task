@@ -1,7 +1,0 @@
-{
-	"sHostName" : "localhost",
-	"iPort" : 42000, 
-    "sVirtualHast" : "vsend",
-    "sUserName" : "",
-    "sPassword" : ""
-}
